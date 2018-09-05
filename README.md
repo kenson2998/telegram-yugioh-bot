@@ -55,7 +55,7 @@ def canceel(bot, update):
 ```
 4. 下面是監聽的部分，而echo_handler = MessageHandler()是用來處理訊息用的，CommandHandler是處理/指令的，<br>
 所以我大部份都是用MessageHandler做事，內鍵的/start是第一次訪問bot時預設的指令，我也不浪費當作開啟抽牌遊戲的指令。<br>
-<img src='https://raw.githubusercontent.com/kenson2998/python-/master/telegram-yugioh-bot/1.jpg'></img>
+<img src='https://raw.githubusercontent.com/kenson2998/telegram-yugioh-bot/master/telegram-yugioh-bot/1.jpg'></img>
 
 ```python
 dispatcher.add_handler(CommandHandler('start', start))
@@ -67,4 +67,4 @@ dispatcher.add_handler(echo_handler)
 updater.start_polling()
 updater.idle()
 ```
-<img src='https://raw.githubusercontent.com/kenson2998/python-/master/telegram-yugioh-bot/2.jpg'></img>
+<img src='https://raw.githubusercontent.com/kenson2998/telegram-yugioh-bot/master/telegram-yugioh-bot/2.jpg'></img>
